@@ -8,6 +8,11 @@ title: Resources
 <span class="links"></span>
 * [한국디지털포렌식학회 KDFS Journal](https://kdfs.jams.or.kr)
 
+
+## Important Schedule
+<span class="schedule"></span>
+* [Digital Forensics and IT Exams](/_post/2019-07-26-test-info.md)
+
 ## Reading List
 <span class="books"></span>
 * Network Forensics (2007) Ric Messier. Wiley.
