@@ -11,7 +11,7 @@ title: Resources
 
 ## Important Schedule
 <span class="schedule"></span>
-* [Digital Forensics and IT Exams](/_post/2019-07-26-test-info.md)
+* [Digital Forensics and IT Exams](/_posts/2019-07-26-test-info.md)
 
 ## Reading List
 <span class="books"></span>
