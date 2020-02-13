@@ -76,7 +76,7 @@ i. You have to add you changes to the repository
 ```bash
 $ git add README.md
 ```
-
+[Git Add](/img/news/gitadd.png)
 ii. You have to commit your changes
 
 ```bash
@@ -87,10 +87,13 @@ iii. Now you can push to your branch
 ```bash
 $ git push origin [name_of_your_new_branch]
 ```
+[Git push](/img/news/gitpush.png)
 
 4. Git Pull Request
 
 If you visit the github url for the repo in our case https://github.com/jokeapart/hello-world , you will see your branch is now on the repo with changes specifically made by you alone. To merge your code with the master branch you will have to create a pull request. click on the button that says pull request to do so.
+
+[Git pull request](/img/news/pullrequest.png)
 
 5. Git pull
 
