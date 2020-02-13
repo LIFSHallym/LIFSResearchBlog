@@ -17,9 +17,9 @@ Github is..
 
 Simply a hub where developers store their projects and network with like minded people using git. To learn more see github pages here https://git-scm.com/book/en/v2
 
-Having stated this difference clearly, let me show you a few commands to get you started with using github.
+Having clearly stated this differences, let me show you a few commands to get you started with using github.
  
-Like some other computer programs git takes a lot of time to master, not enough time before members of your team start hasten you to push the latest code and soon you are on your way to causing everyone pain. Let's talk about how to avoid this scenario which actually was a personal experience.
+Like some other computer programs git takes a lot of time to master, not enough time before members of your team begin to hasten you to push the latest code and soon after you are on your way to causing everyone pain. Let's talk about how to avoid this scenario which actually was a personal experience.
  
 ### WHAT YOU NEED TO KNOW
  ```bash 
@@ -31,11 +31,13 @@ $ git push
 pull request
 $ git pull
 ```
- We will be working on a hello-world project in this git repository as an example to illustrate how to use the above commands.
-  https://github.com/jokeapart/hello-world.git
+ You will be working with me as your team mate on a hello-world project (https://github.com/jokeapart/hello-world.git) in a github repository as an example to illustrate how to use the above commands.
+  
 
  ### PROCEDURE
- Before we proceed, kindly make sure you download and install the git on your computer. If you have not done that already click this link to do so. Once you are done with the installation you also need to create your own account on GitHub. Let's go!!
+ Before we proceed, kindly make sure you download and install git on your computer. If you have not done so already, click this link https://gist.github.com/derhuerst/1b15ff4652a867391f03 to do so. 
+ 
+ Once you are done with the installation you also need to create your own account on GitHub.com. Let's go!!
 
 1. git clone: 
 When ever you want to start a new project you need to clone (copy) the entire project folder from github to your local machine. To do so use the command below:
@@ -47,11 +49,11 @@ Using our sample github repository your command will be: git clone https://githu
 
 2. git checkout
 
-We now have the same repository on github and on our local machine. It means you and I as members of a team are working on thesame codebase at thesame time. But we are currently on the master branch. To be safe, each of us should at least have a separate branch to from the master branch.
+We now have the same repository on github and on our local machine. It means you and I as members of a team are working on thesame codebase at thesame time. But we are currently on the master branch. To be safe, each of us should at least have a separate branch each from the master branch.
 
 Why do we need to create separate branch from master? 
 
-A branch is like a folder online to keep your version of changes made to the project so that as a team we can check for conflicts between our code (if our changes would not break the last working version of the code in master), before we can merge our code to the master branch. The main branch is refered to as master branch.
+A branch is like a folder online to keep your version of changes made to the project so that as a team we can check for conflicts between our code (if our changes would break the last working version of the code in master), before we can merge our code to the master branch. The main branch is refered to as master branch.
 
 Now create a branch using the command
 
@@ -60,9 +62,9 @@ $ git checkout -b [name_of_your_new_branch]
 ```
 3. Push the branch to github
 
-Great job, you have created a branch above that means any changes you make on the code will be save to you branch and not directly to the master branch (a very important safety measure).
+Great job, you have created a branch and that means any changes you make on the code will be saved to your branch and not directly to the master branch (a very important safety measure).
 
-Now go ahead and make changes to the code. Let's say add contents to README.md file.
+Now go ahead and make changes to the code. Let's say add contents to README.md file located in the hello-world folder.
 
 This newly added content is only on your local machine. In other for members of the team to get the new changes you have to push your code to github.
 
@@ -90,21 +92,21 @@ If you visit the github url for the repo in our case https://github.com/jokeapar
 
 5. Git pull
 
-Let's assume your changes has been merged to master by the team member incharge of accepting pull request and you closed the day's work. 
+Let's assume your changes has been merged to master by the team member incharge of accepting pull request and you closed the day's work and went home. 
 
-To continue working whenever you return you have to make a git pull
+To continue your work whenever you return you have to make a git pull
 
 What is git pull?
 
 Remember while you started you cloned the master branch right? Then you created your branch and it has been merged back to master. Assumming while you were away other branches from your team mates were also merged to master, if you continue working on your branch and then push to be merged, you can guess that your code will surely not have alot of what is currently at the master branch and will be rejected from merging.
 
-Use git pull every time you want to start working to get the current codebase from the master branch into your local branch so that you and your team members are always on thesame page. It is like the first time when you had to clone the whole project but this time you just have to pull it.
+You should use git pull every time you want to continue working on an existing project so that you get the current codebase from the master branch into your local branch and you and your team members are always on thesame page. Git pull is like the first time when you had to clone the whole project but this time you just have to pull it.
 
 ```bash
 $ git pull origin master
 ```
 
-This will update your local branch with code base in master branch. After you can add new changes to the code base and repeat step 3. 4.
+This will update your local branch with the most recent code base in the master branch. After that you can add your new changes to the code base and when you are done for working simply repeat step 3. 4.
 
 To excel in your team revolves around repeating steps 5, 3 and 4 in that order. That is git pull, git push, git pull request. 
 
