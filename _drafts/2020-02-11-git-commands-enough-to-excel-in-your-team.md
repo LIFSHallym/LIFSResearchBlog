@@ -39,7 +39,8 @@ $ git pull
  
  Once you are done with the installation you also need to create your own account on GitHub.com. Let's go!!
 
-1. git clone: 
+1. git clone:
+
 When ever you want to start a new project you need to clone (copy) the entire project folder from github to your local machine. To do so use the command below:
 
 ```bash
