@@ -61,6 +61,9 @@ Now create a branch using the command
 ```bash
 $ git checkout -b [name_of_your_new_branch]
 ```
+
+![Git Add](/img/news/gitcheckout.png)
+
 3. Git Push
 
 Great job, you have created a branch and that means any changes you make on the code will be saved to your branch and not directly to the master branch (a very important safety measure).
@@ -112,6 +115,7 @@ You should use git pull every time you want to continue working on an existing p
 ```bash
 $ git pull origin master
 ```
+![Git pull](/img/news/gitpull.png)
 
 This will update your local branch with the most recent code base in the master branch. After that you can add your new changes to the code base and when you are done for working simply repeat step 3. 4.
 
