@@ -2,7 +2,7 @@
 layout: post
 title: "Few github commands enough to excel in your team"
 icon: star-o
-author: Onche Anthony
+author: 2020tony
 tags: [github, git, version control, Digital forensics]
 ---
  ### SUMMARY
