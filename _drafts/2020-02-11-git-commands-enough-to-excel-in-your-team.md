@@ -15,7 +15,7 @@ Git is a command-line tool, so what is github?
 
 Github is..
 
-Simply a hub where developers store their projects and network with like minded people using git. To learn more see github pages [here] (https://git-scm.com/book/en/v2)
+Simply a hub where developers store their projects and network with like minded people using git. To learn more see github pages [here](https://git-scm.com/book/en/v2)
 
 Having clearly stated this differences, let me show you a few commands to get you started with using github.
  
@@ -31,11 +31,11 @@ $ git push
 pull request
 $ git pull
 ```
- You will be working with me as your team mate on a [hello-world project] (https://github.com/jokeapart/hello-world.git) in a github repository as an example to illustrate how to use the above commands.
+ You will be working with me as your team mate on a [hello-world project](https://github.com/jokeapart/hello-world.git) in a github repository as an example to illustrate how to use the above commands.
   
 
  ### PROCEDURE
- Before we proceed, kindly make sure you download and install git on your computer. If you have not done so already, click [here] https://gist.github.com/derhuerst/1b15ff4652a867391f03 to do so. 
+ Before we proceed, kindly make sure you download and install git on your computer. If you have not done so already, click [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)! to do so. 
  
  Once you are done with the installation you also need to create your own account on GitHub.com. Let's go!!
 
@@ -76,7 +76,8 @@ i. You have to add you changes to the repository
 ```bash
 $ git add README.md
 ```
-[Git Add](/img/news/gitadd.png)
+![Git Add](/img/news/gitadd.png)
+
 ii. You have to commit your changes
 
 ```bash
@@ -87,13 +88,14 @@ iii. Now you can push to your branch
 ```bash
 $ git push origin [name_of_your_new_branch]
 ```
-[Git push](/img/news/gitpush.png)
+
+![Git push](/img/news/gitpush.png)
 
 4. Git Pull Request
 
 If you visit the github url for the repo in our case https://github.com/jokeapart/hello-world , you will see your branch is now on the repo with changes specifically made by you alone. To merge your code with the master branch you will have to create a pull request. click on the button that says pull request to do so.
 
-[Git pull request](/img/news/pullrequest.png)
+![Git pull request](/img/news/pullrequest.png)
 
 5. Git pull
 
