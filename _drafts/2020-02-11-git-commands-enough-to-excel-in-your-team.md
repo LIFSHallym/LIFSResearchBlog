@@ -39,7 +39,7 @@ $ git pull
  
  Once you are done with the installation you also need to create your own account on GitHub.com. Let's go!!
 
-1. git clone:
+1. **git clone:
 
 When ever you want to start a new project you need to clone (copy) the entire project folder from github to your local machine. To do so use the command below:
 
@@ -48,7 +48,7 @@ $ git clone < project github url >
 ```
 Using our sample github repository your command will be: git clone https://github.com/jokeapart/hello-world.git
 
-2. git checkout
+2. **git checkout
 
 We now have the same repository on github and on our local machine. It means you and I as members of a team are working on thesame codebase at thesame time. But we are currently on the master branch. To be safe, each of us should at least have a separate branch each from the master branch.
 
@@ -64,7 +64,7 @@ $ git checkout -b [name_of_your_new_branch]
 
 ![Git Add](/img/news/gitcheckout.png)
 
-3. Git Push
+3. **git Push
 
 Great job, you have created a branch and that means any changes you make on the code will be saved to your branch and not directly to the master branch (a very important safety measure).
 
@@ -94,13 +94,13 @@ $ git push origin [name_of_your_new_branch]
 
 ![Git push](/img/news/gitpush.png)
 
-4. Git Pull Request
+4. **git Pull Request
 
 If you visit the github url for the repo in our case https://github.com/jokeapart/hello-world , you will see your branch is now on the repo with changes specifically made by you alone. To merge your code with the master branch you will have to create a pull request. click on the button that says pull request to do so.
 
 ![Git pull request](/img/news/pullrequest.png)
 
-5. Git pull
+5. **git pull
 
 Let's assume your changes has been merged to master by the team member incharge of accepting pull request and you closed the day's work and went home. 
 
