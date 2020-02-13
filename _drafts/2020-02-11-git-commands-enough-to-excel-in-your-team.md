@@ -61,7 +61,7 @@ Now create a branch using the command
 ```bash
 $ git checkout -b [name_of_your_new_branch]
 ```
-3. Push the branch to github
+3. Git Push
 
 Great job, you have created a branch and that means any changes you make on the code will be saved to your branch and not directly to the master branch (a very important safety measure).
 
@@ -89,6 +89,7 @@ $ git push origin [name_of_your_new_branch]
 ```
 
 4. Git Pull Request
+
 If you visit the github url for the repo in our case https://github.com/jokeapart/hello-world , you will see your branch is now on the repo with changes specifically made by you alone. To merge your code with the master branch you will have to create a pull request. click on the button that says pull request to do so.
 
 5. Git pull
