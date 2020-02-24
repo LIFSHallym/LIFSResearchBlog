@@ -87,13 +87,14 @@ sudo apt install autoconf automake autopoint libtool pkg-config bison flex
     go get github.com/vitaminwater/cgo.wchar
 
    #Navigate to sydp/goewf/libewf
-    
+   ```bash
     cd libewf/
     
     ./synclibs.sh
     ./autogen.sh
     ./configure
     make
+    ```
     
 #Navigate to sydp/goewf/
 
